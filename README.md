@@ -28,7 +28,7 @@ This project uses Ray RLlib's Proximal Policy Optimization (PPO) algorithm to tr
 ### 1. Clone the repository
 
 ```
-git clone 
+git clone https://github.com/shannenlolol/SingleAgentCartpoleRLlib.git
 cd single_agent_cartpole
 ```
 <br>
@@ -149,4 +149,3 @@ python single_agent_cartpole.py --load --model_path ./saved_model/20240828_10514
 
 - **Model Saving**: The model is saved in the `./saved_model/` directory with a timestamp if training is completed.
 - **Video Recording**: Evaluation episodes are recorded and saved in the `./video/` directory as `.mp4` files.
-# SingleAgentCartpoleRLlib
